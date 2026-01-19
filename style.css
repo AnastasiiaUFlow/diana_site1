@@ -23,3 +23,18 @@ main{
 h2{
     color: green;
 }
+.Kaufer{
+    display: flex;
+    gap: 5px;
+    padding-right: 500px;
+}
+.images{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+main{
+padding-bottom: 30px;
+}
