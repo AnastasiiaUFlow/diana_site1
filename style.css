@@ -26,7 +26,6 @@ h2{
 .Kaufer{
     display: flex;
     gap: 5px;
-    padding-right: 500px;
 }
 .images{
     display: flex;
@@ -41,7 +40,7 @@ padding-bottom: 30px;
 .img img{
     min-width: 150px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 950px) {
     .images {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -58,6 +57,9 @@ padding-bottom: 30px;
     .Kaufer{
     display: flex;
     gap: 5px;
+}
+.mainImage{
+    width: 100%;
 }
     .img img{
         min-width: 400px;
