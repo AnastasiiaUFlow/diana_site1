@@ -38,3 +38,31 @@ h2{
 main{
 padding-bottom: 30px;
 }
+.img img{
+    min-width: 150px;
+}
+@media screen and (max-width: 600px) {
+    .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    .images img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .Kaufer{
+    display: flex;
+    gap: 5px;
+}
+    .img img{
+        min-width: 400px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
